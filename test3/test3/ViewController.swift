@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                         sizeCell = (view.frame.size.width - 5 * margin) / 4
                     }
                     
-                    layout.itemSize = CGSize(width: sizeCell, height: 108 )
+                    layout.itemSize = CGSize(width: sizeCell, height: sizeCell )
                     layout.sectionInset = UIEdgeInsets.init(top: margin, left: margin, bottom: margin, right: margin)
         
         // Đặt tốc độ cuộn chậm hơn
